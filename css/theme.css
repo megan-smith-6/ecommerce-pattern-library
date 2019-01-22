@@ -1,0 +1,12 @@
+:root {
+  --color-primary: #a33a3a;
+  --color-primary-muted:#e2d8d5;
+  --color-accent: #6b6766;
+  --color-light: #d8ad8a;
+
+  --font-primary: "Montserrat", sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
