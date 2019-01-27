@@ -1,8 +1,10 @@
 :root {
   --color-primary: #a33a3a;
   --color-primary-muted:#e2d8d5;
+  --color-secondary: #c4b0a0;
+  --color-secondary-medium: #a57e5f;
+  --color-secondary-dark: #693e1c;
   --color-accent: #6b6766;
-  --color-light: #d8ad8a;
 
   --font-primary: "Montserrat", sans-serif;
 }
