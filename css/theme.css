@@ -15,4 +15,18 @@ html {
 
 h1 {
   color: var(--color-primary);
+  font-weight: 600;
+}
+
+h2,
+h3,
+h5,
+h6 {
+  color: var(--color-accent);
+  font-weight: 400;
+}
+
+h4 {
+  color: var(--color-accent);
+  font-weight: 500;
 }
