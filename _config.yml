@@ -5,3 +5,17 @@ patternbot:
   description: |
     "An online candle store that offers scents that immerse you into nature"
   font_url: "https://fonts.googleapis.com/css?family=Montserrat:400,500"
+  colors:
+    background: "--color-primary-muted"
+    accent: "--color-accent"
+    patterns:
+      brand.logos: "--color-secondary"
+  rationales:
+    typefaces.primary: |
+      Montserrat was selected because it's airy, and the airiness is meant to represent the earthy feel of the website.
+    colors.primary: |
+      The primary colours represent roses and leaves to represent the plant based side of nature. They should be used for text, buttons, and foregrounds.
+    colors.secondary: |
+      The secondary colours represent the earthier side of things such as soil. They should be used for text and for the navigation.
+    colors.accents: |
+      The accent colours are meant to represent more of the earthier side of things like rock. They should be used for text and borders.
