@@ -36,6 +36,16 @@ a {
   color: var(--color-secondary-dark);
 }
 
+.link-primary {
+  text-decoration: none;
+  color: var(--color-secondary-dark);
+}
+
+.link-secondary {
+  text-decoration: none;
+  color: var(--color-primary);
+}
+
 ul, li
 ol, li {
   list-style: none;
@@ -59,8 +69,12 @@ dfn,
 i,
 b,
 s,
-u,
+u {
+  color: var(--color-accent);
+}
+
 mark  {
+  background-color: var(--color-primary-muted);
   color: var(--color-accent);
 }
 
