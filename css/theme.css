@@ -47,3 +47,24 @@ dl, dt, dd {
   list-style: none;
   color: var(--color-accent);
 }
+
+blockquote,
+cite,
+em,
+strong,
+del,
+ins,
+abbr,
+dfn,
+i,
+b,
+s,
+u,
+mark  {
+  color: var(--color-accent);
+}
+
+q {
+  color: var(--color-accent);
+  font-weight: 500;
+}
