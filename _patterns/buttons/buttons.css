@@ -9,20 +9,3 @@
   border-color: var(--color-secondary-dark);
   color: var(--color-primary-muted);
 }
-
-.btn-ghost {
-  background-color: transparent;
-  color: var(--color-primary);
-}
-
-.btn-ghost:hover {
-  background-color: var(--color-primary);
-  border-color: var(--color-primary);
-  color: var(--color-primary-muted);
-}
-
-.btn-light {
-  background-color: var(--color-secondary);
-  border-color: var(--color-secondary-dark);
-  color: var(--color-secondary-dark);
-}
