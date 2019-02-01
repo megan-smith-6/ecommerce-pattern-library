@@ -1,0 +1,10 @@
+a.card-hover:hover::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  background: var(--color-accent-secondary);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
