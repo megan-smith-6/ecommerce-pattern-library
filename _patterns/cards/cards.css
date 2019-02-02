@@ -1,4 +1,19 @@
-a.card-hover:hover::before {
+.card-product {
+  background-color: var(--color-secondary);
+  border: 2px solid var(--color-secondary);
+  transition: all 400ms linear;
+  -webkit-transition: all 400ms linear;
+  -moz-transition: all 400ms linear;
+}
+
+
+.card-product:hover {
+  background-color: var(--color-accent-secondary);
+  border: 2px solid var(--color-accent-secondary);
+}
+
+
+.card-product::before {
   content: " ";
   display: block;
   position: absolute;
@@ -7,4 +22,4 @@ a.card-hover:hover::before {
   left: 0;
   right: 0;
   bottom: 0;
-}
+} */
