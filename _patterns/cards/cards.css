@@ -1,4 +1,4 @@
-.card-product {
+.candle-product-card {
   background-color: var(--color-secondary);
   border: 2px solid var(--color-secondary);
   transition: all 400ms linear;
@@ -7,19 +7,42 @@
 }
 
 
-.card-product:hover {
+.candle-product-card:hover {
   background-color: var(--color-accent-secondary);
   border: 2px solid var(--color-accent-secondary);
 }
 
+.candle-card {
+  background-color: var(--color-secondary);
+  border: 2px solid var(--color-secondary);
+  transition: all 400ms linear;
+  -webkit-transition: all 400ms linear;
+  -moz-transition: all 400ms linear;
+}
 
-.card-product::before {
-  content: " ";
-  display: block;
-  position: absolute;
-  background: var(--color-accent-secondary);
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-} */
+
+.candle-card:hover {
+  background-color: var(--color-accent-secondary);
+  border: 2px solid var(--color-accent-secondary);
+}
+
+.cart-card {
+  background-color: var(--color-accent-tertiary);
+  border: 2px solid var(--color-accent);
+}
+
+.cart-card h2 {
+  font-weight: 600;
+}
+
+.cart-item {
+  font-weight: 500;
+}
+
+.cart-card p {
+  color: var(--color-accent);
+}
+
+hr {
+  border: 1px solid var(--color-accent);
+}
