@@ -1,12 +1,28 @@
 .homepage-banner {
+  background-color: var(--color-primary-muted);
   background-image: url("../../images/banner.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
+  background-position: top center;
+  height: 50vh;
 }
 
 .text-position {
-  top: 0;
+  bottom: 0;
   left: 0;
   max-width: 26em;
   width: 100%;
+}
+
+@media only screen and (min-width: 112em) {
+
+  .homepage-banner {
+    background-image: url("../../images/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 80vh;
+    background-attachment: fixed;
+  }
+
 }
