@@ -5,7 +5,8 @@
   --color-secondary-medium: #a57e5f;
   --color-secondary-dark: #693e1c;
   --color-accent: #6b6766;
-  --color-accent-secondary: rgba(163, 58, 58, .4);
+  --color-accent-secondary: rgba(163, 58, 58, .3);
+  --color-accent-tertiary: #f4ebe9;
 
   --font-primary: "Montserrat", sans-serif;
 }
