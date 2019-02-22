@@ -1,0 +1,22 @@
+/* .unit-increment {
+  display: flex;
+  list-style-type: none;
+  align-items: stretch;
+} */
+
+.unit-increment > li::before {
+    content: none;
+}
+
+.input-number {
+  height: 3em;
+  text-align: center;
+  float: left;
+  width:
+}
+
+.border-li {
+  border: 2px solid var(--color-accent);
+  float: left;
+  width:
+}
