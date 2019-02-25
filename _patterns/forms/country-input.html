@@ -1,10 +1,13 @@
-<div class="push-1-2">
-  <label for="country">Country</label>
-  <input id="country" required aria-describedby="country-error">
-  <p class="error-message milli island-1-4 push-0" id="country-error">
-    <i class="icon i-16"><svg><use xlink:href="/images/icons.svg#error" /></svg></i>
-    <span class="icon-label">Please provide the country that you live in</span>
-  </p>
+<div class="grid">
+  <div class="unit s-1 m-2-3 l-2-4 push-1-2">
+    <label class="push-1-8" for="country">Country</label>
+    <select id="country" name="country" required>
+      <option value="">Select your country</option>
+      <option>Canada</option>
+      <option>United States of America</option>
+      <option>Mexico</option>
+    </select>
+  </div>
 </div>
 
 <script src="https://thomasjbradley.github.io/form-validation-helper/index.js"></script>
