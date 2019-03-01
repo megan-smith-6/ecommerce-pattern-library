@@ -1,8 +1,14 @@
-<div>
+<div class="island">
   <h1>Billing Details</h1>
   {% pattern forms/first-and-last-name %}
   {% pattern forms/email-address %}
   {% pattern forms/country-input %}
-  {% pattern forms/city-input %}
-  {% pattern forms/zip-postal-code %}
+  <div class="grid">
+    <div class="unit xs-1 m-1-2 card-half-padding">
+      {% pattern forms/city-input %}
+    </div>
+    <div class="unit xs-1 m-1-2">
+      {% pattern forms/zip-postal-code %}
+    </div>
+  </div>
 </div>

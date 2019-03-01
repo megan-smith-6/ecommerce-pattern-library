@@ -1,8 +1,14 @@
-<div class="">
+<div class="island">
   <h1>Payment Details</h1>
   {% pattern forms/cardholder-name %}
   {% pattern forms/card-number %}
-  {% pattern forms/card-month %}
-  {% pattern forms/card-code %}
+  <div class="grid">
+    <div class="unit xs-1 s-1 m-1-2 card-half-padding">
+      {% pattern forms/card-month %}
+    </div>
+    <div class="unit xs-1 s-1 m-1-2">
+      {% pattern forms/card-code %}
+    </div>
+  </div>
   {% pattern buttons/basic %}
 </div>
