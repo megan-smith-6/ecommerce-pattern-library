@@ -7,7 +7,7 @@
   --color-accent: #6b6766;
   --color-accent-secondary: rgba(163, 58, 58, .3);
   --color-accent-tertiary: #f4ebe9;
-
+  --color-accent-black: #000;
   --font-primary: "Montserrat", sans-serif;
 }
 
@@ -83,4 +83,8 @@ mark  {
 q {
   color: var(--color-accent);
   font-weight: 500;
+}
+
+.light-text {
+  color: var(--color-secondary-medium);
 }
