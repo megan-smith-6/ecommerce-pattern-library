@@ -1,3 +1,15 @@
 .grey-text {
   color: var(--color-accent);
 }
+
+.card-half-padding {
+  padding-right: 0;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .card-half-padding {
+    padding-right: 1.3rem;
+  }
+
+}
