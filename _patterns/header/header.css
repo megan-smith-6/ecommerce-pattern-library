@@ -1,0 +1,61 @@
+#nav-ul > li::before {
+    content: none ;
+}
+
+header nav ul li {
+  display: block;
+  text-align: center;
+}
+
+.nav-btn {
+  border-bottom: 2px solid transparent;
+}
+
+.nav-btn:hover {
+  border-bottom: 2px solid var(--color-secondary-dark);
+}
+
+.nav-current {
+  border-bottom: 2px solid var(--color-secondary-dark);
+}
+
+.i-small-logo {
+  display: inline-block;
+  height: 32px;
+  width: 32px;
+  padding-left: .75rem;
+  padding-right: .75rem;
+}
+
+.i-logo {
+  display: none;
+  height: 50px;
+  width: 175px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+header {
+  background-color: var(--color-secondary);
+}
+
+@media only screen and (min-width: 38em) {
+
+  header nav ul li {
+    display: inline-block;
+    text-align: center;
+  }
+
+  .i-logo {
+    display: inline-block;
+    padding-left: .75rem;
+    padding-right: .75rem;
+  }
+
+  .i-small-logo {
+    display: none;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+}
