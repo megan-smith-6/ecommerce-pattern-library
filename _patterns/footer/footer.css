@@ -1,0 +1,24 @@
+.footer-nav-primary {
+  color: var(--color-primary);
+}
+
+.footer-nav-primary:hover {
+  color: var(--color-accent-black);
+}
+
+.footer-nav-secondary {
+  color: var(--color-secondary-dark);
+}
+
+.footer-nav-secondary:hover {
+  color: var(--color-accent-black);
+}
+
+footer {
+  background-color: var(--color-secondary);
+}
+
+.i-logo-footer {
+  height: 40px;
+  width: 96px;
+}
