@@ -1,5 +1,9 @@
 <label class="push-1-8" for="province">Province</label>
-<select id="province" name="province" required>
+<select id="province" name="province" required aria-describedby="province-error">
+<p class="error-message milli island-1-4 push-0" id="province-error">
+  <i class="icon i-16"><svg><use xlink:href="/images/icons.svg#error" /></svg></i>
+  <span class="icon-label">Please provide the province you live in</span>
+</p>
   <option value="">Select your province</option>
   <option>Ontario</option>
   <option>British Columbia</option>
