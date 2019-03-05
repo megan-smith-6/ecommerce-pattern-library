@@ -1,5 +1,9 @@
+#nav-ul {
+  padding-left: 0 ;
+}
+
 #nav-ul > li::before {
-    content: none ;
+  content: none ;
 }
 
 header nav ul li {
