@@ -1,0 +1,73 @@
+title: "Forms"
+description: |
+  This website has many form fields. Lots of them will be used together on certain pages of the site but some of them will stand alone.
+
+patterns:
+    candle-choice-input:
+      title: "Candle Choice Input"
+      description: |
+        The candle choice input form field will allow the user to choose the quantity of the item that they want.
+    card-code:
+      title: "Card Code"
+      description: |
+        The card code form field will allow users to enter the security code that is on the back of their debit or credit card.
+    card-month:
+      title: "Card Month"
+      description: |
+        The card month form field will allow users to enter their card expiry date.
+    card-number:
+      title: "Card Number"
+      description: |
+        The card number form field will allow users to enter the number that is on the front of their debit/credit card.
+    cardholder-name:
+      title: "Cardholder Name"
+      description: |
+        The cardholder name form field will allow users to enter the cardholder name that is on their debit/credit card.
+    checkbox:
+      title: "Checkbox"
+      description: |
+        The checkbox will work as a checkbox that can be placed anywhere if the user needs to confirm something. For example, agreeing to terms and conditions.
+    city-input:
+      title: "City Input"
+      description: |
+        The city input form field will allow users to enter the city that they live in. This will be used for the delivery address.
+    complete-purchase-button:
+      title: "Complete Purchase Button"
+      description: |
+        The complete purchase button is what the users will press to confirm their purchase and their personal info.
+    country-input:
+      title: "Country Input"
+      description: |
+        The city input form field will allow users to enter the country that they live in. This will be used for the delivery address.
+    email-address:
+      title: "Email Address"
+      description: |
+        The email address form field will be used as contact information for a purchase, or as a sign up or login field.
+    first-and-last-name:
+      title: "First and Last Name"
+      description: |
+        The first and last name form field will be used as contact information for a purchase, or as a sign up or login field.
+    password:
+      title: "Password"
+      description: |
+        The password form field will be used as in a sign up or login.
+    picker:
+      title: "Picker"
+      description: |
+        The picker form field will be used as a way for a user to quickly input a selection on a page.
+    radio-button:
+      title: "Radio Button"
+      description: |
+        The radio button will work as a radio button that can be placed anywhere if it is needed.
+    radio-button:
+      title: "Radio Button"
+      description: |
+        The radio button will work as a radio button that can be placed anywhere if it is needed.
+    text-area:
+      title: "Text Area"
+      description: |
+        The text area form field will work as a way for users to put in messages.
+    zip-postal-code:
+      title: "Zip Postal Code"
+      description: |
+        The zip poztal code form field will be used as a way for users to enter their zip/postal code. This will be used for the delivery address.
