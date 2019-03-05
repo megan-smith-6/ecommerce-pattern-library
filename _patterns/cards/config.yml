@@ -1,0 +1,17 @@
+title: "Cards"
+description: |
+  Cards are important in this website because they are used on almost every page. They provide the users with lots of details about the products.
+
+patterns:
+    candles-card:
+      title: "Candles Card"
+      description: |
+        The candles card is used to tell the user what the product is and how much the product costs.
+    candle-product-card:
+      title: "Candle Product Card"
+      description: |
+        The candle product card is used to take the user to another that is full of one simialt type of product. For this website it takes you to either a page full of candles or wax melts.
+    cart-card:
+      title: "Cart Card"
+      description: |
+        The cart card is only used on the form page to show a user what is in their cart and what their total will be.
