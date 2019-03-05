@@ -1,0 +1,21 @@
+title: "Cards"
+description: |
+  This website has many sections and each section is very different.
+
+patterns:
+    billing-details:
+      title: "Billing Details"
+      description: |
+        The billing details section is the first section of the checkout page. It is where the user will put in their personal information so that the website knows where to ship the item.
+    payment-method:
+      title: "Payment Method"
+      description: |
+        The payment method section is the second section of the checkout page. It is where the user will put in their payment/card details.
+    text-img:
+      title: "Text & Image Card"
+      description: |
+        The text & image card will work as a section for an image, a title, and a description. It could be used on an about us page or anyhting simialr.
+    item-description:
+      title: "Item Description"
+      description: |
+        The item description seciton will be used on the product description page and will work as a description of the product and it will also allow users to see the price, add it to their cart, and choose the quantity.
