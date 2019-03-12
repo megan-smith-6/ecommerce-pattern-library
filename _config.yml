@@ -19,6 +19,7 @@ patternbot:
       The secondary colours represent the earthier side of things such as soil. They should be used for text and for the navigation.
     colors.accents: |
       The accent colours are meant to represent more of the earthier side of things like rock. They should be used for text and borders.
+
   layouts:
     default: |
       The default layout should be used for almost every page, it includes the website's primary header & footer.
