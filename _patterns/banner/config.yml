@@ -5,3 +5,10 @@ description: |
 patterns:
   banner-main:
     height: 800
+    fields:
+      - name: heading
+        type: string
+        example:  "Immerse Yourself."
+      - name: text
+        type: string
+        example:  "With one light, our candles can emulate the scent of your paradise."
