@@ -1,10 +1,9 @@
-<div class="gutter-1-4 candle-product-card">
-  <a href="#" class="">
+<div class="candle-product-card" tabindex="0">
+  <a href="{{products.url}}" aria-label="{{product.title}}">
     <div class="island">
       <img class="img-flex" src="{{product.image | default:'/images/fiery-candle.jpg'}}" alt="">
-      <h2 class="pad-t-1-8 push-1-4 mega">{{product.title | default:'Fiery Candle'}}</h2>
-      <p>{{product.price | default:'$13.99'}}</p>
+      <h2 class="pad-t-1-8 push-1-8 milli">{{product.title | default:'Fiery Candle'}}</h2>
+      <p class="push-0 milli">{{product.price | default:'$13.99'}}</p>
     </div>
-
   </a>
 </div>
