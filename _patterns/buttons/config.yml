@@ -7,7 +7,3 @@ patterns:
     title: "Basic"
     description: |
       Default to using the basic button. It should always be used in front of light backgrounds.
-  banner-btn:
-    title: "Banner Btn"
-    description: |
-      The banner btn is used on the banner as a call to action.
