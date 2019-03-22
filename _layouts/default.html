@@ -9,8 +9,17 @@
 </head>
 <body>
 
+<ul class="skip-links">
+  <li>
+    <a href="#nav">Jump to nav</a>
+    <a href="#main">Jump to main content</a>
+  </li>
+</ul>
+
   {% pattern header/header %}
-  {{content}}
+  <main id="main" role="main" tabindex="0">
+    {{content}}
+  </main>
   {% pattern footer/footer %}
 
 </body>
