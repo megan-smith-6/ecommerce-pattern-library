@@ -15,3 +15,9 @@ patterns:
       title: "Cart Card"
       description: |
         The cart card is only used on the form page to show a user what is in their cart and what their total will be.
+      fields:
+        - name: data
+          type: object
+          data:
+            source: "site.products[0]"
+            type: Product
