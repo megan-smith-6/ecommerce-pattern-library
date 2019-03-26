@@ -1,10 +1,22 @@
 ---
 layout: default
 ---
-<h1>{{page.name}}</h1>
+<h1 class="gutter pad-t-2">{{page.name}}</h1>
+<p class="gutter">{{page.description}}</p>
 {% pattern navigations/breadcrumbs %}
-{% pattern sections/item-description %}
-<div class="grid">
+<div class="grid gutter">
+  <div class="unit xs-1 s-1 m-2-3 l-2-3 push">
+    <img class="img-flex" src="{{page.image}}" alt="">
+  </div>
+  <div class="unit xs-1 s-1 m-1-4 l-1-4 push">
+    {% pattern sections/item-description %}
+  </div>
+</div>
+
+<div class="grid gutter island-2">
+  <div class="unit xs-1 s-1 m-1 l-1">
+    <p class="text-center">Related Products</p>
+  </div>
   <div class="unit xs-1 s-1 m-1-2 l-1-2">
     {% pattern cards/candle-product-card %}
   </div>
@@ -12,5 +24,3 @@ layout: default
     {% pattern cards/candle-product-card %}
   </div>
 </div>
-<p>{{page.description}}</p>
-<img src="{{page.image}}" alt="">
