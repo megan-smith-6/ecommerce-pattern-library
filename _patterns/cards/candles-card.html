@@ -1,7 +1,7 @@
 <div class="candle-card" tabindex="0">
-  <a href="#" class="">
+  <a href="#" aria-label="{{offer.title}}">
     <div class="island">
-      <img class="img-flex" src="{{offer.image | default:'/images/candles-card.jpg'}}" alt="">
+      <img class="img-flex" src="{{offer.image | default:'/images/candles-card.jpg'}}" aria-details="Photo of {{offer.title}}">
       <h2 class="pad-t-1-8 push-1-4 milli">{{offer.title | default:'12 oz. candles'}}</h2>
     </div>
   </a>
