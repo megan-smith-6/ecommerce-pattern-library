@@ -25,6 +25,7 @@ The pattern library is a Jekyll & Patternbot based application that requires a r
 
 ## Collaborators
 
-- [@TyannaB](https://github.com/thomasjbradley)
+- [@TyannaB](https://github.com/TyannaB)
+- [@onuo0005](https://github.com/onuo0005)
 
 © WickIt 2019 All Rights Reserved
