@@ -1,0 +1,63 @@
+---
+layout: default
+highlight_nav: index
+---
+
+<h1 class="text-center pad-t giga">Candle blowout sale!</h1>
+{% pattern banner/banner-main heading="Candle Sale!" text="Immerse yourself with a bulk buy of our candles." %}
+
+<section class="wrapper island-2">
+  <div class="grid">
+    <div class="unit xs-1 m-1-2 island-1-2">
+      {% pattern cards/candle-product-card %}
+    </div>
+    <div class="unit xs-1 m-1-2 island-1-2">
+      {% pattern cards/candle-product-card %}
+    </div>
+  </div>
+  <div class="grid push-2">
+    <div class="unit xs-1 m-1-2 island-1-2 text-center">
+      <a class="btn milli" href="{{include.url}}" aria-label="{{include.text-btn}}">{{include.text-btn | default:"But now!"}}</a>
+    </div>
+    <div class="unit xs-1 m-1-2 island-1-2 text-center">
+      <a class="btn milli" href="{{include.url}}" aria-label="{{include.text-btn}}">{{include.text-btn | default:"But now!"}}</a>
+    </div>
+  </div>
+  <table class="push-2">
+    <tr>
+      <th scope="col">Quantity</th>
+      <td>1-3</td>
+      <td>4-6</td>
+      <td>7-9</td>
+      <td>10-12</td>
+    </tr>
+    <tr>
+      <th scope="col">Price/Each</th>
+      <td>$11.99</td>
+      <td>$10.99</td>
+      <td>$8.99</td>
+      <td>$6.99</td>
+    </tr>
+    <tr>
+      <th scope="col">Discount</th>
+      <td>5%</td>
+      <td>10%</td>
+      <td>20%</td>
+      <td>25%</td>
+    </tr>
+  </table>
+  <h2>Sign up for our newsletter</h2>
+  <form>
+    <div class="grid">
+      <div class="unit xs-1 l-1-2 island-1-2">
+        {% pattern forms/first-and-last-name %}
+      </div>
+      <div class="unit xs-1 l-1-2 island-1-2">
+        {% pattern forms/email-address %}
+      </div>
+      <div class="unit xs-1 text-center">
+        {% pattern buttons/submit-btn %}
+      </div>
+    </div>
+  </form>
+</section>
