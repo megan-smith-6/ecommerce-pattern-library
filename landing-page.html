@@ -3,12 +3,11 @@ layout: default
 highlight_nav: index
 ---
 
-<h1 class="text-center pad-t giga">Candle blowout sale!</h1>
 {% pattern banner/banner-main heading="Candle Sale!" text="Immerse yourself with a bulk buy of our candles." button_text="View More Products" button_url="/products/"%}
 
 <section class="wrapper island-2">
   <div class="grid">
-    {% for product in site.products limit:3 %}
+    {% for product in site.products limit:2 %}
     <div class="unit xs-1 m-1-2 island-1-2">
       {% pattern cards/candle-product-card data=product %}
     </div>
@@ -19,7 +18,7 @@ highlight_nav: index
       <a class="btn milli" href="{{include.url}}" aria-label="{{include.text-btn}}">{{include.text-btn | default:"Buy now!"}}</a>
     </div>
     <div class="unit xs-1 m-1-2 island-1-2 text-center">
-      <a class="btn milli" href="{{include.url}}" aria-label="{{include.text-btn}}"></a>
+      <a class="btn milli" href="{{include.url}}" aria-label="{{include.text-btn}}">{{include.text-btn | default:"Buy now!"}}</a>
     </div>
   </div>
   <table class="push-2">
