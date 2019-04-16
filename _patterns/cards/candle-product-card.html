@@ -1,9 +1,9 @@
 <div class="candle-product-card" tabindex="0">
-  <a href="{{products.url}}" aria-label="{{product.title}}">
+  <a href="{{include.data.url}}" aria-label="{{include.data.aria_label}}">
     <div class="island">
-      <img class="img-flex" src="{{product.image | default:'/images/fiery-candle.jpg'}}" aria-details="Photo of {{product.title}}">
-      <h2 class="pad-t-1-8 push-1-8 milli">{{product.title | default:'Fiery Candle'}}</h2>
-      <p class="push-0 milli">{{product.price | default:'$13.99'}}</p>
+      <img class="img-flex" src="{{include.data.image}}" aria-details="Photo of {{include.data.title}}">
+      <h2 class="pad-t-1-8 push-1-8 milli">{{include.data.name}}</h2>
+      <p class="push-0 milli">{{include.data.price}}</p>
     </div>
   </a>
 </div>

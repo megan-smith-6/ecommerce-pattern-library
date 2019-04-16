@@ -11,6 +11,12 @@ patterns:
       title: "Candle Product Card"
       description: |
         The candle product card is used to take the user to another that is full of one simialt type of product. For this website it takes you to either a page full of candles or wax melts.
+      fields:
+        - name: data
+          type: object
+          data:
+            source: "site.products[0]"
+            type: product
     cart-card:
       title: "Cart Card"
       description: |
@@ -20,4 +26,4 @@ patterns:
           type: object
           data:
             source: "site.products[0]"
-            type: Product
+            type: product

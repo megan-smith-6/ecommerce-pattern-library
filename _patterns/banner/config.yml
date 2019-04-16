@@ -12,3 +12,11 @@ patterns:
       - name: text
         type: string
         example:  "With one light, our candles can emulate the scent of your paradise."
+      - name: button_text
+        type: string
+        example: "View Our Products"
+        required: false
+      - name: button_url
+        type: url
+        example: "/products/"
+        required: false

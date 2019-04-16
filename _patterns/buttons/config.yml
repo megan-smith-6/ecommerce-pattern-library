@@ -7,3 +7,10 @@ patterns:
     title: "Basic"
     description: |
       Default to using the basic button. It should always be used in front of light backgrounds.
+    field:
+      - name: text
+        type: string
+        example: "See More"
+      - name: url
+        type: string
+        example: "/products/"
