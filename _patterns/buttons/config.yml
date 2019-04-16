@@ -7,7 +7,7 @@ patterns:
     title: "Basic"
     description: |
       Default to using the basic button. It should always be used in front of light backgrounds.
-    field:
+    fields:
       - name: text
         type: string
         example: "See More"

@@ -8,12 +8,11 @@ highlight_nav: index
 
 <section class="wrapper island-2">
   <div class="grid">
+    {% for product in site.products limit:3 %}
     <div class="unit xs-1 m-1-2 island-1-2">
-      {% for product in site.products limit:3 %}
+      {% pattern cards/candle-product-card data=product %}
     </div>
-    <div class="unit xs-1 m-1-2 island-1-2">
-      {% pattern cards/candle-product-card %}
-    </div>
+    {% endfor %}
   </div>
   <div class="grid push-2">
     <div class="unit xs-1 m-1-2 island-1-2 text-center">
